@@ -13,12 +13,12 @@ const FetchYogaData = () => {
                 <li key={index} className='list_data'>
                     <h3>{e.name}</h3>
                     <p><strong>Benefits: </strong>{e.benefits}</p>
-                    <p><strong>Time duration: </strong>{e.time_duration}</p>
+                    <p><strong>Duration: </strong>{e.time_duration}</p>
                 </li>
             ))}
         </ul>
         </>
-    )
-}
+    );
+};
 
 export default FetchYogaData
